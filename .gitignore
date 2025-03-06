@@ -1,0 +1,31 @@
+# Игнорируем виртуальное окружение
+venv/
+
+# Игнорируем файлы конфигурации и секретные ключи
+.env
+client_secret.json
+service-account-file.json
+token.json
+
+# Игнорируем базы данных и кеши
+db.sqlite3
+__pycache__/
+*.pyc
+*.pyo
+
+# Игнорируем временные файлы и логи
+*.log
+*.tmp
+*.swp
+
+# Игнорируем видеофайлы и сгенерированные медиафайлы
+videos/
+media/
+audio/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Игнорируем файлы cookie
+cookies.pkl
